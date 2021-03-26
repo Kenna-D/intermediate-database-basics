@@ -35,6 +35,8 @@ SELECT a.name, b.name FROM some_table a JOIN another_table b ON a.some_id = b.so
 5. Get all playlist_track track_ids where the playlist `name` is Music.
 6. Get all track `name`s for `playlist_id` 5.
 7. Get all track `name`s and the playlist `name` that they're on ( 2 joins ).
+
+
 8. Get all track `name`s and album `title`s that are the genre `Alternative & Punk` ( 2 joins ).
 
 ### Solution
@@ -287,7 +289,6 @@ UPDATE athletes SET sport = 'Picklball' WHERE sport = 'pockleball';
 </details>
 
 <br />
-
 1. Find all customers with fax numbers and set those numbers to `null`.
 2. Find all customers with no company (null) and set their company to `"Self"`.
 3. Find the customer `Julia Barnett` and change her last name to `Thompson`.
